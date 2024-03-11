@@ -11,12 +11,16 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div id="wide-container">
     <AppNavbar></AppNavbar>
   </div>
   
 </template>
 
 <style>
+
+#wide-container {
+  margin: 0 auto;
+}
 
 </style>
