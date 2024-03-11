@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <div id="wide-container">
+  <div id="wide-container"> 
     <AppNavbar></AppNavbar>
   </div>
   
@@ -19,8 +19,12 @@ export default {
 
 <style>
 
-#wide-container {
-  margin: 0 auto;
+
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 </style>
