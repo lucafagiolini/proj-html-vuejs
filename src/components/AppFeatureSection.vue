@@ -30,16 +30,22 @@ export default {
   </section>
   <section id="features_list" class="container">
     <ul class="p-0 m-0">
-      <li class="d-flex gap-4 position-relative">
+      <li class="d-flex gap-4 ">
         <ul id="features_item" v-for="(current_feature, index) in features_data" >
-          <li class="pb-3 position-relative">
+          <li id="feature_icon_box" class="pb-3">
             <span class="d-flex align-items-center justify-content-center p-2 "><i :class="current_feature.icon" class="fs-5" ></i></span>
           </li>
-          <li class="">
-            <h3>{{ current_feature.title }}</h3>
+          <li>
+            <h3 id="feature_front_title" class="">{{ current_feature.title }}</h3>
+          </li>
+          <li>
+            <h3 id="feature_back_title" class="text-uppercase">artfully crafted</h3>
           </li>
           <li>
             <p>{{ current_feature.paragraph }}</p>
+          </li>
+          <li>
+            <button type="button" href="#" >get a quote</button>
           </li>
         </ul>
       </li>
@@ -111,11 +117,27 @@ export default {
 
   background-color: #f5f5f5;
   border-radius: 10px;
-  transition: 0.3s;
+  transition: 0.2s;
 
   &:hover {
     background-color: $primary-color;
     color: $secondary-color;
+    transform: scale(1.05);
+
+    button {
+     display: block;
+     transition: 0.3s;
+    }
+
+    #feature_icon_box {
+      display: none;
+    }
+
+    #feature_front_title {
+      display: none;
+    }
+
+
   }
 
 
@@ -147,57 +169,10 @@ export default {
       text-transform: capitalize;
     }
 
-    p {
-      font-size: 0.7rem;
+    #feature_back_title {
+      font-size: 1.1rem;
       color: $light_gray_font_color;
       text-align: center;
-      line-height: 1.5rem;
-      margin: 0;
-      text-transform: capitalize;
-    }
-  }
-}
-
-#features_item_back {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  margin: 0;
-  padding: 1.5rem;
-
-  background-color: #f5f5f5;
-  border-radius: 10px;
-
-
-
-
-  li {
-    list-style: none;
-
-    span {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      border: 1px solid rgb(155, 155, 155);
-
-    }
-
-    i {
-      font-size: 1.5rem;
-      padding: 0.5rem;
-
-      color: $light_gray_font_color;
-      border: $light_gray_font_color;
-    }
-
-    h3 {
-      @include raleway_font;
-      font-size: 1.5rem;
-      font-weight: 400;
-      color: $secondary-color;
-      text-transform: capitalize;
     }
 
     p {
@@ -208,10 +183,15 @@ export default {
       margin: 0;
       text-transform: capitalize;
     }
+
+    button {
+      display: none;
+      @include primary_button_style;
+      background-color: #ffe07b;
+      font-size: 0.7rem;
+      margin-top: 1rem;
+    }
+
   }
-
-
-  
-
 }
 </style>
