@@ -7,11 +7,11 @@
     <img id="logo_navbar" src="/src/assets/logo/construction_logo_retina.png" alt="avada_construction_logo">
     <div class="d-flex align-items-center">
         <ul id="links_navbar" class="pe-3 roboto-regular text-uppercase">
-            <li>Home <i class="fa-solid fa-play"></i></li>
-            <li>about <i class="fa-solid fa-play"></i></li>
-            <li>services <i class="fa-solid fa-play"></i></li>
-            <li>work <i class="fa-solid fa-play"></i></li>
-            <li>articles <i class="fa-solid fa-play"></i></li>
+            <li>Home <i class="fa-solid fa-caret-down"></i></li>
+            <li>about <i class="fa-solid fa-caret-down"></i></li>
+            <li>services <i class="fa-solid fa-caret-down"></i></li>
+            <li>work <i class="fa-solid fa-caret-down"></i></li>
+            <li>articles <i class="fa-solid fa-caret-down"></i></li>
         </ul>
 
         <button id="nav_get_quote_btn" type="button" href="#" >get quote</button>
@@ -49,24 +49,24 @@
     cursor: pointer;
     transition: 0.3s;
 
-    .fa-play{
+    .fa-caret-down{
         display: none;
-        rotate: 90deg;
-        font-size: 1rem;
+        
+        font-size: 1.4rem;
         
     }
 
     &:hover {
       color: $primary_color;
       
-      .fa-play {
+      .fa-caret-down {
         display: flex;
         justify-content: center;
 
         
         color: rgb(255, 255, 255);
         position: absolute;
-        bottom: -57px;
+        bottom: -60px;
       }
     }
   }
