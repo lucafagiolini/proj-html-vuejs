@@ -17,7 +17,7 @@ export default {
             <li>articles <i class="fa-solid fa-caret-down"></i></li>
         </ul>
 
-        <button id="nav_get_quote_btn" type="button" href="#" >get quote</button>
+        <button id="nav_get_quote_btn" type="button" href="#">get quote</button>
 
     </div>
 

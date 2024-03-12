@@ -1,22 +1,23 @@
 <script>
 import AppNavbar from './components/AppNavbar.vue';
 import AppJumbo from './components/AppJumbo.vue';
+import AppFeatureSection from './components/AppFeatureSection.vue';
 
 export default {
 
   components: {
     AppNavbar,
     AppJumbo,
+    AppFeatureSection,
   },
 }
 
 </script>
 
 <template>
-  <div id="wide-container"> 
-    <AppNavbar></AppNavbar>
-  </div>
+  <AppNavbar></AppNavbar>
   <AppJumbo></AppJumbo>
+  <AppFeatureSection></AppFeatureSection>
 </template>
 
 <style> 
