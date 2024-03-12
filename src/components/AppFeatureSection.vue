@@ -57,6 +57,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 
   
   h2 {
@@ -110,6 +111,12 @@ export default {
 
   background-color: #f5f5f5;
   border-radius: 10px;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $primary-color;
+    color: $secondary-color;
+  }
 
 
 
@@ -152,7 +159,6 @@ export default {
 }
 
 #features_item_back {
-  display: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,6 +169,7 @@ export default {
 
   background-color: #f5f5f5;
   border-radius: 10px;
+
 
 
 
