@@ -1,10 +1,12 @@
 <script>
 import AppNavbar from './components/AppNavbar.vue';
+import AppJumbo from './components/AppJumbo.vue';
 
 export default {
 
   components: {
     AppNavbar,
+    AppJumbo,
   },
 }
 
@@ -14,17 +16,8 @@ export default {
   <div id="wide-container"> 
     <AppNavbar></AppNavbar>
   </div>
-  
+  <AppJumbo></AppJumbo>
 </template>
 
-<style>
-
-
-
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
+<style> 
 </style>
