@@ -7,7 +7,7 @@
     <img id="logo_navbar" src="/src/assets/logo/construction_logo_retina.png" alt="avada_construction_logo">
     <div class="d-flex align-items-center">
         <ul id="links_navbar" class="pe-3 roboto-regular text-uppercase">
-            <li class="ps-0">Home <i class="fa-solid fa-play"></i></li>
+            <li>Home <i class="fa-solid fa-play"></i></li>
             <li>about <i class="fa-solid fa-play"></i></li>
             <li>services <i class="fa-solid fa-play"></i></li>
             <li>work <i class="fa-solid fa-play"></i></li>
