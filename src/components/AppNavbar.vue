@@ -24,7 +24,7 @@ export default {
    </section>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
 @use "/src/variabiles.scss" as *;
 @use "/src/mixins.scss" as *;
 
@@ -53,7 +53,7 @@ export default {
     transition: 0.3s;
 
     .fa-caret-down{
-        display: none;
+       display: none;
         
         font-size: 1.4rem;
         
@@ -65,6 +65,7 @@ export default {
       .fa-caret-down {
         display: flex;
         justify-content: center;
+        z-index: 10;
 
         
         color: rgb(255, 255, 255);
