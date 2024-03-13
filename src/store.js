@@ -49,6 +49,36 @@ export const store = reactive({
             icon: "fa-solid fa-globe",
             count_number: 19,
         },
+    ],
+
+    core_values: [
+
+        {
+            title: "great services",
+            icon: "fa-solid fa-house-chimney",
+            icon_bg_color: "icon_bg_color_1",
+            paragraph: "neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+            
+        },
+        {
+            title: "highest standards",
+            icon: "fa-solid fa-gear",
+            icon_bg_color: "icon_bg_color_2",
+            paragraph: "neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+        },
+        {
+            title: "professional team",
+            icon: "fa-solid fa-users",
+            icon_bg_color: "icon_bg_color_3",
+            paragraph: "neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+        },
+        {
+            title: "creative solutions",
+            icon: "fa-regular fa-lightbulb",
+            icon_bg_color: "icon_bg_color_4",
+            paragraph: "neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+        },
+
     ]
 
 

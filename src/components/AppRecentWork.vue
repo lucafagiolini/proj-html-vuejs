@@ -33,6 +33,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding-bottom: 6rem;
     h3 {
         @include h2_primary_title;
         padding-top: 0;
@@ -59,9 +61,10 @@ section {
             font-size: 0.8rem;
             text-decoration: none;
 
-            &:hover {
-                text-decoration: underline;
-            }
+           &:hover {
+               text-decoration: underline;
+           }
+
         }
        
     }

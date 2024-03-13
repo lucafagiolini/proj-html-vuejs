@@ -4,6 +4,7 @@ import AppJumbo from './components/AppJumbo.vue';
 import AppFeatureSection from './components/AppFeatureSection.vue';
 import AppCounter from './components/AppCounter.vue';
 import AppRecentWork from './components/AppRecentWork.vue';
+import AppCoreValues from './components/AppCoreValues.vue';
 
 export default {
 
@@ -13,6 +14,7 @@ export default {
     AppFeatureSection,
     AppCounter,
     AppRecentWork,
+    AppCoreValues
   },
 }
 
@@ -24,6 +26,7 @@ export default {
   <AppFeatureSection></AppFeatureSection>
   <AppCounter></AppCounter>
   <AppRecentWork></AppRecentWork>
+  <AppCoreValues></AppCoreValues>
 </template>
 
 <style> 
