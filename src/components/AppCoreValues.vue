@@ -64,6 +64,7 @@ section {
 
   p {
     @include p_primary;
+    padding-bottom: 0;
   }
   
   ul {
@@ -74,6 +75,7 @@ section {
 
     
     li {
+      padding-top: 2rem;
       max-width: 300px;
       
       
@@ -142,8 +144,6 @@ section {
         font-size: 0.8rem;
         font-weight: 300;
         transition: scale 1s;
-      
-        
       }
     }
   }

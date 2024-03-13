@@ -40,26 +40,10 @@ export default {
     background-size: cover;
 
     #white_aria_top {
-        align-self: center;
-        position: absolute;
-        left: 0;
-        top: 0px;
-        width: 100%;
-        height: 100px;
-        overflow-x: hidden;
-
-        background-color: white;
-        border-radius: 0 0 50% 50% / 50%;
+        @include background_ark_top;
     }
     #white_aria_bottom {
-        position: absolute;
-        left: 0;
-        bottom: 0px;
-        width: 100%;
-        height: 100px;
-
-        background-color: white;
-        border-radius: 50% 50% 0 0 / 50%;
+        @include background_ark_bottom;
     }
 
     ul {

@@ -95,3 +95,27 @@
     margin: 0.2rem;
     opacity: 1;
 }
+
+// BACKGROUND ARK STYLES
+
+@mixin background_ark_top {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+
+    background-color: white;
+    border-radius: 0 0 50% 50% / 50%;
+}
+
+@mixin background_ark_bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+
+    background-color: white;
+    border-radius: 50% 50% 0 0 / 50%;
+}
