@@ -6,7 +6,7 @@ export const store = reactive({
 
         {
             title: "buildings",
-            icon: "fa-solid fa-building",
+            icon: "fa-regular fa-building",
             paragraph: "quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur."
         },
         {
@@ -26,6 +26,30 @@ export const store = reactive({
         },
 
     ],
+
+
+    counters: [
+        {
+            title: "planning applications",
+            icon: "fa-solid fa-suitcase",
+            count_number: 3534,
+        },
+        {
+            title: "completed projects",
+            icon: "fa-regular fa-building",
+            count_number: 896,
+        },
+        {
+            title: "trained professionals",
+            icon: "fa-solid fa-users",
+            count_number: 172,
+        },
+        {
+            title: "international offices",
+            icon: "fa-solid fa-globe",
+            count_number: 19,
+        },
+    ]
 
 
 });
