@@ -30,7 +30,7 @@ export default {
   </section>
   <section id="features_list" class="container">
     <ul class="p-0 m-0">
-      <li class="d-flex gap-4 ">
+      <li class="d-flex gap-4">
         <ul id="features_item" v-for="(current_feature, index) in features_data" >
           <li id="feature_icon_box" class="pb-3">
             <span class="d-flex align-items-center justify-content-center p-2 "><i :class="current_feature.icon" class="fs-5" ></i></span>
@@ -67,25 +67,15 @@ export default {
 
   
   h2 {
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    padding-top: 5rem;
-    color: $secondary-color;
+    @include h2_primary_title;
+   
   }
 
 
-  .raleway-secondary {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-  }
+  
 
   hr {
-    width: calc(100%/10);
-    border: 1px solid $primary-color;
-    margin: 0.2rem;
-    opacity: 1;
+    @include hr_primary;
   }
 
   span {
@@ -102,7 +92,9 @@ export default {
 }
 
 #features_list {
-  padding-bottom: 7rem;
+  padding-bottom: 2rem;
+
+  
 }
 
 

@@ -63,3 +63,35 @@
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
 }
+
+
+// TITLES and PARAGRAPHS tools
+
+@mixin h2_primary_title {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding-top: 5rem;
+    color: #333333;
+}
+
+@mixin p_primary {
+    width: 50%;
+    font-size: 0.6rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+
+    text-align: center;
+    color: #6b6b6b;
+}
+
+@mixin hr_primary {
+    width: calc(100%/10);
+    border: 1px solid #fed03d;
+    margin: 0.2rem;
+    opacity: 1;
+}

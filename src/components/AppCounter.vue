@@ -43,7 +43,7 @@ export default {
         align-self: center;
         position: absolute;
         left: 0;
-        top: -20px;
+        top: 0px;
         width: 100%;
         height: 100px;
         overflow-x: hidden;
@@ -54,7 +54,7 @@ export default {
     #white_aria_bottom {
         position: absolute;
         left: 0;
-        bottom: -20px;
+        bottom: 0px;
         width: 100%;
         height: 100px;
 
