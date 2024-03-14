@@ -93,7 +93,28 @@ export const store = reactive({
             feedback: "no man but feels more of a man in the world if he have but a bit of ground that he can call his own. However small it is on the surface, it is four thousand miles deep; and that is a very handsome property."
         },
 
-    ]
+    ],
 
+    latest_news: [
+        {
+            title: "redeveloping florida's remote southern coast",
+            img: "src/assets/images/blog-post-134132600-1200x723.jpg",
+            date: "december 7th, 2015",
+            paragraph: "technology is here to stay lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            title: "how we manage large construction projects",
+            img: "src/assets/images/blog-post-92486644-1200x723.jpg",
+            date: "agust 29th, 1995",
+            paragraph: "technology is here to stay lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            title: "future proofing a modern home",
+            img: "src/assets/images/blog-post-332773904-1200x723.jpg",
+            date: "march 14th, 2024",
+            paragraph: "technology is here to stay lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+    ],
 
 });

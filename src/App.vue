@@ -6,6 +6,7 @@ import AppCounter from './components/AppCounter.vue';
 import AppRecentWork from './components/AppRecentWork.vue';
 import AppCoreValues from './components/AppCoreValues.vue';
 import AppFeedbacksSlider from './components/AppFeedbacksSlider.vue';
+import AppNews from './components/AppNews.vue';
 
 export default {
 
@@ -17,6 +18,8 @@ export default {
     AppRecentWork,
     AppCoreValues,
     AppFeedbacksSlider,
+    AppNews,
+
     
   },
 }
@@ -31,6 +34,7 @@ export default {
   <AppRecentWork></AppRecentWork>
   <AppCoreValues></AppCoreValues>
   <AppFeedbacksSlider></AppFeedbacksSlider>
+  <AppNews></AppNews>
 </template>
 
 <style> 

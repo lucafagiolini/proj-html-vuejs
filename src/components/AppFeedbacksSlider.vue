@@ -21,7 +21,7 @@ export default {
       <hr>
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item">
             <div class="testimonial_box">
               <img src="/src/assets/images/home-testimonial-84268399.jpg" class="d-block" alt="...">
               <p>"no man but feels more of a man in the world if he have but a bit of ground that he can call his own. However small it is on the surface, it is four thousand miles deep; and that is a very handsome property."
