@@ -9,6 +9,7 @@ import AppFeedbacksSlider from './components/AppFeedbacksSlider.vue';
 import AppNews from './components/AppNews.vue';
 import AppPartners from './components/AppPartners.vue';
 import AppFreeQuote from './components/AppFreeQuote.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
 
@@ -23,6 +24,7 @@ export default {
     AppNews,
     AppPartners,
     AppFreeQuote,
+    AppFooter,
 
     
   },
@@ -41,6 +43,7 @@ export default {
   <AppNews></AppNews>
   <AppPartners></AppPartners>
   <AppFreeQuote></AppFreeQuote>
+  <AppFooter></AppFooter>
 </template>
 
 <style> 
