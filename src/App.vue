@@ -8,6 +8,7 @@ import AppCoreValues from './components/AppCoreValues.vue';
 import AppFeedbacksSlider from './components/AppFeedbacksSlider.vue';
 import AppNews from './components/AppNews.vue';
 import AppPartners from './components/AppPartners.vue';
+import AppFreeQuote from './components/AppFreeQuote.vue';
 
 export default {
 
@@ -21,6 +22,7 @@ export default {
     AppFeedbacksSlider,
     AppNews,
     AppPartners,
+    AppFreeQuote,
 
     
   },
@@ -38,6 +40,7 @@ export default {
   <AppFeedbacksSlider></AppFeedbacksSlider>
   <AppNews></AppNews>
   <AppPartners></AppPartners>
+  <AppFreeQuote></AppFreeQuote>
 </template>
 
 <style> 
