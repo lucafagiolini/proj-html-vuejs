@@ -109,7 +109,7 @@ export default {
 
   background-color: #f5f5f5;
   border-radius: 10px;
-  transition: 0.2s;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
     background-color: $primary-color;

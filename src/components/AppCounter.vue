@@ -57,11 +57,11 @@ export default {
             display: flex;
             flex-direction: column;
             align-items: center;
-            transition: scale 0.3s ease;
+            transition: all 0.3s ease-in-out;
             cursor: pointer;
 
             &:hover {
-                scale: 2;
+                scale: 1.5;
     
             }
 

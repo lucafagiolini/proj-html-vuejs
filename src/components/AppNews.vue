@@ -104,12 +104,16 @@ export default {
       width: 225px;
       background-color: white;
       padding: 0;
+      transition: all 0.3s ease-in-out;
 
       .alternative_content_box {
         display: none;
       }
 
       &:hover {
+        transform: scale(1.05);
+
+
         img {
           display: none;
         }

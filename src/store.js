@@ -117,4 +117,22 @@ export const store = reactive({
 
     ],
 
+    partners: [
+        {
+            img: "src/assets/images/home-logo11-219096700-320x202.png",
+        },
+        {
+            img: "src/assets/images/home-logo10-219096700-320x202.png",
+        },
+        {
+            img: "src/assets/images/home-logo2-219096700-320x202.png",
+        },
+        {
+            img: "src/assets/images/home-logo1-219096700-320x202.png",
+        },
+        {
+            img: "src/assets/images/home-logo9-219096700-320x202.png",
+        },
+    ],
+
 });
