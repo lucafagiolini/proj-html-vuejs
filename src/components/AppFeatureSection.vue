@@ -129,6 +129,12 @@ export default {
       display: none;
     }
 
+    #feature_back_title {
+      display: block;
+    }
+
+    
+
 
   }
 
@@ -162,10 +168,15 @@ export default {
     }
 
     #feature_back_title {
+      display: none;
+    }
+
+    #feature_back_title {
       font-size: 1.1rem;
       color: $light_gray_font_color;
       text-align: center;
     }
+
 
     p {
       font-size: 0.7rem;
